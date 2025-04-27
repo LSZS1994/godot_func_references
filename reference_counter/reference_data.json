@@ -1,0 +1,1472 @@
+{
+	"data": {
+		"DeleteSlot": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://example/example.gd",
+			"references": [
+				{
+					"caller_method": "DeleteSlot",
+					"file": "res://example/example.gd",
+					"line": 37,
+					"line_text": "SaveService.DeleteSlot(slot.SlotId)"
+				}
+			]
+		},
+		"FormatGameTime": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://example/save_slot.gd",
+			"references": [
+				{
+					"caller_method": "LoadData",
+					"file": "res://example/save_slot.gd",
+					"line": 23,
+					"line_text": "game_time_label.text = FormatGameTime()"
+				}
+			]
+		},
+		"LoadData": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://example/save_slot.gd",
+			"references": [
+				{
+					"caller_method": "_ready",
+					"file": "res://example/save_slot.gd",
+					"line": 16,
+					"line_text": "LoadData()"
+				}
+			]
+		},
+		"LoadGame": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://example/example.gd",
+			"references": [
+				{
+					"caller_method": "LoadGame",
+					"file": "res://example/example.gd",
+					"line": 31,
+					"line_text": "SaveService.LoadGame(slot.SlotId)"
+				}
+			]
+		},
+		"LoadSlots": {
+			"caller_method": "GLOBAL",
+			"count": 3,
+			"file": "res://example/example.gd",
+			"references": [
+				{
+					"caller_method": "_ready",
+					"file": "res://example/example.gd",
+					"line": 11,
+					"line_text": "LoadSlots()"
+				},
+				{
+					"caller_method": "DeleteSlot",
+					"file": "res://example/example.gd",
+					"line": 38,
+					"line_text": "LoadSlots()"
+				},
+				{
+					"caller_method": "NewGame",
+					"file": "res://example/example.gd",
+					"line": 50,
+					"line_text": "LoadSlots()"
+				}
+			]
+		},
+		"NewGame": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://example/example.gd",
+			"references": [
+				{
+					"caller_method": "_on_new_game_pressed",
+					"file": "res://example/example.gd",
+					"line": 55,
+					"line_text": "NewGame()"
+				}
+			]
+		},
+		"_on_accessory_slot_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": []
+		},
+		"_on_all_enemies_defeated": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/battle/battle_panel.gd",
+			"references": []
+		},
+		"_on_armor_slot_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": []
+		},
+		"_on_attribute_refine": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+			"references": []
+		},
+		"_on_back_button_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+			"references": []
+		},
+		"_on_back_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": []
+		},
+		"_on_battle_button_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/main/ui_main.gd",
+			"references": []
+		},
+		"_on_battle_tick": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/battle/battle_panel.gd",
+			"references": []
+		},
+		"_on_character_button_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/main/ui_main.gd",
+			"references": []
+		},
+		"_on_close_button_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/character/character_panel.gd",
+			"references": []
+		},
+		"_on_close_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/enemy_selection/enemy_selection_panel.gd",
+			"references": []
+		},
+		"_on_confirm_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/enemy_selection/enemy_selection_panel.gd",
+			"references": []
+		},
+		"_on_contact_area_body_entered": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://example/player.gd",
+			"references": []
+		},
+		"_on_decrease_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/enemy_selection/enemy_selection_panel.gd",
+			"references": []
+		},
+		"_on_delete_slot_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://example/save_slot.gd",
+			"references": []
+		},
+		"_on_enemy_button_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/main/ui_main.gd",
+			"references": []
+		},
+		"_on_enemy_defeated": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/battle/battle_panel.gd",
+			"references": []
+		},
+		"_on_forge_button_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/main/ui_main.gd",
+			"references": []
+		},
+		"_on_forge_complete": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": []
+		},
+		"_on_forge_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": []
+		},
+		"_on_increase_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/enemy_selection/enemy_selection_panel.gd",
+			"references": []
+		},
+		"_on_item_refine_requested": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+			"references": []
+		},
+		"_on_load_game_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://example/save_slot.gd",
+			"references": []
+		},
+		"_on_new_game_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://example/example.gd",
+			"references": []
+		},
+		"_on_player_gold_changed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/main/ui_main.gd",
+			"references": []
+		},
+		"_on_refine_back": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": [
+				{
+					"caller_method": "_on_back_pressed",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 285,
+					"line_text": "_on_refine_back()"
+				}
+			]
+		},
+		"_on_refine_button_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+			"references": []
+		},
+		"_on_save_agent_finish_auto_saving": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://example/game.gd",
+			"references": []
+		},
+		"_on_save_agent_start_auto_saving": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://example/game.gd",
+			"references": []
+		},
+		"_on_shoes_slot_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": []
+		},
+		"_on_weapon_slot_pressed": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": []
+		},
+		"_physics_process": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://example/player.gd",
+			"references": []
+		},
+		"_process": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://example/game.gd",
+			"references": []
+		},
+		"_ready": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/Utilty/notification/toast_notification.gd",
+			"references": []
+		},
+		"_update_ui": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/main/ui_main.gd",
+			"references": [
+				{
+					"caller_method": "_ready",
+					"file": "res://Scene/ui/main/ui_main.gd",
+					"line": 14,
+					"line_text": "_update_ui()"
+				}
+			]
+		},
+		"add_attribute_item": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+			"references": [
+				{
+					"caller_method": "setup",
+					"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+					"line": 23,
+					"line_text": "add_attribute_item(attr_name, attributes[attr_name])"
+				}
+			]
+		},
+		"add_attribute_label": {
+			"caller_method": "GLOBAL",
+			"count": 10,
+			"file": "res://Scene/ui/character/character_panel.gd",
+			"references": [
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 22,
+					"line_text": "add_attribute_label(\"攻击力\", str(player.get_attack()), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 23,
+					"line_text": "add_attribute_label(\"防御力\", str(player.get_defense()), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 24,
+					"line_text": "add_attribute_label(\"生命值\", \"%d/%d\" % [player.current_health, player.get_max_health()], str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 25,
+					"line_text": "add_attribute_label(\"暴击率\", \"%.1f%%\" % (player.get_crit_rate() * 100), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 26,
+					"line_text": "add_attribute_label(\"暴击伤害\", \"%.1f%%\" % (player.get_crit_damage() * 100), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 27,
+					"line_text": "add_attribute_label(\"攻击速度\", str(player.get_attack_speed()), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 28,
+					"line_text": "add_attribute_label(\"闪避率\", \"%.1f%%\" % (player.get_dodge_rate() * 100), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 29,
+					"line_text": "add_attribute_label(\"吸血率\", \"%.1f%%\" % (player.get_lifesteal() * 100), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 30,
+					"line_text": "add_attribute_label(\"真实伤害\", str(player.get_true_damage()), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 31,
+					"line_text": "add_attribute_label(\"格挡值\", str(player.get_block()), str(player.get_attack_eq()))"
+				}
+			]
+		},
+		"animate_attribute_fly": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/Utilty/ui_animations.gd",
+			"references": []
+		},
+		"animate_button_click": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/Utilty/ui_animations.gd",
+			"references": []
+		},
+		"animate_panel_hide": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/Utilty/ui_animations.gd",
+			"references": []
+		},
+		"animate_panel_show": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/ui/Utilty/ui_animations.gd",
+			"references": []
+		},
+		"calculate_damage_2Enemy": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/battle/battle_panel.gd",
+			"references": [
+				{
+					"caller_method": "player_attack",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 281,
+					"line_text": "var damage_info = calculate_damage_2Enemy(player_data, enemy)"
+				}
+			]
+		},
+		"calculate_damage_2Player": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/battle/battle_panel.gd",
+			"references": [
+				{
+					"caller_method": "enemy_attack",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 313,
+					"line_text": "var damage_info = calculate_damage_2Player(enemy, player_data)"
+				}
+			]
+		},
+		"clear_attributes": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+			"references": [
+				{
+					"caller_method": "setup",
+					"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+					"line": 21,
+					"line_text": "clear_attributes()"
+				}
+			]
+		},
+		"create_stylebox": {
+			"caller_method": "GLOBAL",
+			"count": 4,
+			"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+			"references": [
+				{
+					"caller_method": "update_progress_bar_color",
+					"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+					"line": 143,
+					"line_text": "progress_bar.add_theme_stylebox_override(\"fill\", create_stylebox(Color.BLACK))"
+				},
+				{
+					"caller_method": "update_progress_bar_color",
+					"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+					"line": 145,
+					"line_text": "progress_bar.add_theme_stylebox_override(\"fill\", create_stylebox(Color.RED))"
+				},
+				{
+					"caller_method": "update_progress_bar_color",
+					"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+					"line": 147,
+					"line_text": "progress_bar.add_theme_stylebox_override(\"fill\", create_stylebox(Color.ORANGE))"
+				},
+				{
+					"caller_method": "update_progress_bar_color",
+					"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+					"line": 149,
+					"line_text": "progress_bar.add_theme_stylebox_override(\"fill\", create_stylebox(Color.GREEN))"
+				}
+			]
+		},
+		"defeat_current_enemy": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/data/enemy_data.gd",
+			"references": [
+				{
+					"caller_method": "player_attack",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 304,
+					"line_text": "enemy_data.defeat_current_enemy()"
+				}
+			]
+		},
+		"enemy_attack": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/battle/battle_panel.gd",
+			"references": [
+				{
+					"caller_method": "_on_battle_tick",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 198,
+					"line_text": "enemy_attack(enemy)"
+				}
+			]
+		},
+		"equip_attributes": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": [
+				{
+					"caller_method": "_on_forge_complete",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 158,
+					"line_text": "equip_attributes()"
+				},
+				{
+					"caller_method": "_on_attribute_refine",
+					"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+					"line": 92,
+					"line_text": "#equip_attributes() # 更新玩家数据"
+				}
+			]
+		},
+		"equip_item": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "equip_attributes",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 229,
+					"line_text": "player.equip_item(current_slot, equipped_attrs)"
+				}
+			]
+		},
+		"generate_enemies": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/data/enemy_data.gd",
+			"references": [
+				{
+					"caller_method": "_on_confirm_pressed",
+					"file": "res://Scene/ui/enemy_selection/enemy_selection_panel.gd",
+					"line": 48,
+					"line_text": "enemy_data.generate_enemies(current_count)"
+				}
+			]
+		},
+		"get_attack": {
+			"caller_method": "GLOBAL",
+			"count": 3,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "update_stats",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 140,
+					"line_text": "player_stats.get_node(\"Attack\").text = \"攻击: %d\" % player_data.get_attack()"
+				},
+				{
+					"caller_method": "calculate_damage_2Enemy",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 352,
+					"line_text": "var base_damage = attacker.get_attack() - defender[\"defense\"]"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 22,
+					"line_text": "add_attribute_label(\"攻击力\", str(player.get_attack()), str(player.get_attack_eq()))"
+				}
+			]
+		},
+		"get_attack_eq": {
+			"caller_method": "GLOBAL",
+			"count": 10,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 22,
+					"line_text": "add_attribute_label(\"攻击力\", str(player.get_attack()), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 23,
+					"line_text": "add_attribute_label(\"防御力\", str(player.get_defense()), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 24,
+					"line_text": "add_attribute_label(\"生命值\", \"%d/%d\" % [player.current_health, player.get_max_health()], str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 25,
+					"line_text": "add_attribute_label(\"暴击率\", \"%.1f%%\" % (player.get_crit_rate() * 100), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 26,
+					"line_text": "add_attribute_label(\"暴击伤害\", \"%.1f%%\" % (player.get_crit_damage() * 100), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 27,
+					"line_text": "add_attribute_label(\"攻击速度\", str(player.get_attack_speed()), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 28,
+					"line_text": "add_attribute_label(\"闪避率\", \"%.1f%%\" % (player.get_dodge_rate() * 100), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 29,
+					"line_text": "add_attribute_label(\"吸血率\", \"%.1f%%\" % (player.get_lifesteal() * 100), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 30,
+					"line_text": "add_attribute_label(\"真实伤害\", str(player.get_true_damage()), str(player.get_attack_eq()))"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 31,
+					"line_text": "add_attribute_label(\"格挡值\", str(player.get_block()), str(player.get_attack_eq()))"
+				}
+			]
+		},
+		"get_attack_speed": {
+			"caller_method": "GLOBAL",
+			"count": 3,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "update_stats",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 152,
+					"line_text": "player_speed_bar.get_node(\"Label\").text = \"速度: %d\" % player_data.get_attack_speed()"
+				},
+				{
+					"caller_method": "_on_battle_tick",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 180,
+					"line_text": "var player_speed = player_data.get_attack_speed()"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 27,
+					"line_text": "add_attribute_label(\"攻击速度\", str(player.get_attack_speed()), str(player.get_attack_eq()))"
+				}
+			]
+		},
+		"get_attack_speed_eq": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/data/player_data.gd",
+			"references": []
+		},
+		"get_block": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "calculate_damage_2Player",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 417,
+					"line_text": "var block = defender.get_block()"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 31,
+					"line_text": "add_attribute_label(\"格挡值\", str(player.get_block()), str(player.get_attack_eq()))"
+				}
+			]
+		},
+		"get_block_eq": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/data/player_data.gd",
+			"references": []
+		},
+		"get_crit_damage": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "calculate_damage_2Enemy",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 358,
+					"line_text": "base_damage *= attacker.get_crit_damage()"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 26,
+					"line_text": "add_attribute_label(\"暴击伤害\", \"%.1f%%\" % (player.get_crit_damage() * 100), str(player.get_attack_eq()))"
+				}
+			]
+		},
+		"get_crit_damage_eq": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/data/player_data.gd",
+			"references": []
+		},
+		"get_crit_rate": {
+			"caller_method": "GLOBAL",
+			"count": 3,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "update_stats",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 142,
+					"line_text": "player_stats.get_node(\"CritRate\").text = \"暴击率: %.1f%%\" % (player_data.get_crit_rate() * 100)"
+				},
+				{
+					"caller_method": "calculate_damage_2Enemy",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 356,
+					"line_text": "var is_crit = randf() < attacker.get_crit_rate()"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 25,
+					"line_text": "add_attribute_label(\"暴击率\", \"%.1f%%\" % (player.get_crit_rate() * 100), str(player.get_attack_eq()))"
+				}
+			]
+		},
+		"get_crit_rate_eq": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/data/player_data.gd",
+			"references": []
+		},
+		"get_current_enemy": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/data/enemy_data.gd",
+			"references": [
+				{
+					"caller_method": "update_stats",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 136,
+					"line_text": "var enemy = enemy_data.get_current_enemy()"
+				},
+				{
+					"caller_method": "_on_battle_tick",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 175,
+					"line_text": "var enemy = enemy_data.get_current_enemy()"
+				}
+			]
+		},
+		"get_defense": {
+			"caller_method": "GLOBAL",
+			"count": 3,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "update_stats",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 141,
+					"line_text": "player_stats.get_node(\"Defense\").text = \"防御: %d\" % player_data.get_defense()"
+				},
+				{
+					"caller_method": "calculate_damage_2Player",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 390,
+					"line_text": "var base_damage = attacker[\"attack\"] - defender.get_defense()"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 23,
+					"line_text": "add_attribute_label(\"防御力\", str(player.get_defense()), str(player.get_attack_eq()))"
+				}
+			]
+		},
+		"get_defense_eq": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/data/player_data.gd",
+			"references": []
+		},
+		"get_dodge_rate": {
+			"caller_method": "GLOBAL",
+			"count": 3,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "update_stats",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 143,
+					"line_text": "player_stats.get_node(\"DodgeRate\").text = \"闪避率: %.1f%%\" % (player_data.get_dodge_rate() * 100)"
+				},
+				{
+					"caller_method": "calculate_damage_2Player",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 402,
+					"line_text": "var is_dodged = randf() < defender.get_dodge_rate()"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 28,
+					"line_text": "add_attribute_label(\"闪避率\", \"%.1f%%\" % (player.get_dodge_rate() * 100), str(player.get_attack_eq()))"
+				}
+			]
+		},
+		"get_dodge_rate_eq": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/data/player_data.gd",
+			"references": []
+		},
+		"get_lifesteal": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 29,
+					"line_text": "add_attribute_label(\"吸血率\", \"%.1f%%\" % (player.get_lifesteal() * 100), str(player.get_attack_eq()))"
+				}
+			]
+		},
+		"get_lifesteal_eq": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/data/player_data.gd",
+			"references": []
+		},
+		"get_max_health": {
+			"caller_method": "GLOBAL",
+			"count": 6,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "GLOBAL",
+					"file": "res://Scene/data/player_data.gd",
+					"line": 19,
+					"line_text": "current_health = clamp(value, 0, get_max_health())"
+				},
+				{
+					"caller_method": "heal",
+					"file": "res://Scene/data/player_data.gd",
+					"line": 251,
+					"line_text": "current_health = min(current_health + amount, get_max_health())"
+				},
+				{
+					"caller_method": "reset_health",
+					"file": "res://Scene/data/player_data.gd",
+					"line": 258,
+					"line_text": "current_health = get_max_health()"
+				},
+				{
+					"caller_method": "update_stats",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 146,
+					"line_text": "player_hp_bar.max_value = player_data.get_max_health()"
+				},
+				{
+					"caller_method": "update_stats",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 148,
+					"line_text": "player_hp_bar.get_node(\"Label\").text = \"%d/%d\" % [player_data.current_health, player_data.get_max_health()]"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 24,
+					"line_text": "add_attribute_label(\"生命值\", \"%d/%d\" % [player.current_health, player.get_max_health()], str(player.get_attack_eq()))"
+				}
+			]
+		},
+		"get_max_health_eq": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/data/player_data.gd",
+			"references": []
+		},
+		"get_slot_by_type": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": [
+				{
+					"caller_method": "update_slot_display",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 254,
+					"line_text": "var slot_button = get_slot_by_type(slot_type)"
+				}
+			]
+		},
+		"get_true_damage": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "calculate_damage_2Enemy",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 370,
+					"line_text": "var true_damage = attacker.get_true_damage()"
+				},
+				{
+					"caller_method": "update_attributes",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 30,
+					"line_text": "add_attribute_label(\"真实伤害\", str(player.get_true_damage()), str(player.get_attack_eq()))"
+				}
+			]
+		},
+		"get_true_damage_eq": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/data/player_data.gd",
+			"references": []
+		},
+		"heal": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "GLOBAL",
+					"file": "res://Scene/data/player_data.gd",
+					"line": 38,
+					"line_text": "signal health_changed(new_health)"
+				}
+			]
+		},
+		"hide_interface": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": [
+				{
+					"caller_method": "_ready",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 56,
+					"line_text": "hide_interface()"
+				},
+				{
+					"caller_method": "_on_back_pressed",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 287,
+					"line_text": "hide_interface()"
+				}
+			]
+		},
+		"open_forge_interface": {
+			"caller_method": "GLOBAL",
+			"count": 4,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": [
+				{
+					"caller_method": "_on_weapon_slot_pressed",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 78,
+					"line_text": "open_forge_interface(\"weapon\")"
+				},
+				{
+					"caller_method": "_on_armor_slot_pressed",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 84,
+					"line_text": "open_forge_interface(\"armor\")"
+				},
+				{
+					"caller_method": "_on_accessory_slot_pressed",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 90,
+					"line_text": "open_forge_interface(\"accessory\")"
+				},
+				{
+					"caller_method": "_on_shoes_slot_pressed",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 96,
+					"line_text": "open_forge_interface(\"shoes\")"
+				}
+			]
+		},
+		"open_panel": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/character/character_panel.gd",
+			"references": [
+				{
+					"caller_method": "_on_character_button_pressed",
+					"file": "res://Scene/ui/main/ui_main.gd",
+					"line": 44,
+					"line_text": "$\"..\".ui_character.open_panel()"
+				}
+			]
+		},
+		"play_crack_animation": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+			"references": [
+				{
+					"caller_method": "update_attribute",
+					"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+					"line": 60,
+					"line_text": "item.play_crack_animation()"
+				}
+			]
+		},
+		"play_increase_animation": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+			"references": [
+				{
+					"caller_method": "update_values",
+					"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+					"line": 70,
+					"line_text": "play_increase_animation(new_current)"
+				}
+			]
+		},
+		"player_attack": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/battle/battle_panel.gd",
+			"references": [
+				{
+					"caller_method": "_on_battle_tick",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 193,
+					"line_text": "player_attack(enemy)"
+				}
+			]
+		},
+		"randomize_attributes": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": [
+				{
+					"caller_method": "_on_forge_complete",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 155,
+					"line_text": "randomize_attributes(gold_spent)"
+				}
+			]
+		},
+		"reset_health": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "_on_all_enemies_defeated",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 110,
+					"line_text": "player_data.reset_health()"
+				}
+			]
+		},
+		"setup": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+			"references": [
+				{
+					"caller_method": "show_refine_interface",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 211,
+					"line_text": "current_refine_ui.setup(current_attributes)"
+				},
+				{
+					"caller_method": "add_attribute_item",
+					"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+					"line": 38,
+					"line_text": "item.setup(attr_name, values)"
+				}
+			]
+		},
+		"show_damage_popup": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/ui/battle/battle_panel.gd",
+			"references": [
+				{
+					"caller_method": "player_attack",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 291,
+					"line_text": "show_damage_popup(damage_info.damage, enemy_pos, damage_info.type)"
+				},
+				{
+					"caller_method": "enemy_attack",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 322,
+					"line_text": "show_damage_popup(damage_info.damage, player_pos, damage_info.type)"
+				}
+			]
+		},
+		"show_dodge_popup": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/ui/battle/battle_panel.gd",
+			"references": [
+				{
+					"caller_method": "player_attack",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 289,
+					"line_text": "show_dodge_popup(enemy_pos + Vector2(0, -60))"
+				},
+				{
+					"caller_method": "enemy_attack",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 320,
+					"line_text": "show_dodge_popup(player_pos + Vector2(0, -60))"
+				}
+			]
+		},
+		"show_forge_options": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": [
+				{
+					"caller_method": "open_forge_interface",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 105,
+					"line_text": "show_forge_options()"
+				},
+				{
+					"caller_method": "_on_refine_back",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 236,
+					"line_text": "show_forge_options()"
+				}
+			]
+		},
+		"show_interface": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": [
+				{
+					"caller_method": "_on_forge_button_pressed",
+					"file": "res://Scene/ui/main/ui_main.gd",
+					"line": 38,
+					"line_text": "$\"..\".ui_forge.show_interface()"
+				}
+			]
+		},
+		"show_notification": {
+			"caller_method": "GLOBAL",
+			"count": 3,
+			"file": "res://Scene/ui/Utilty/notification/toast_notification.gd",
+			"references": [
+				{
+					"caller_method": "_ready",
+					"file": "res://Scene/data/data.gd",
+					"line": 19,
+					"line_text": "#NotificationManager.show_notification(\"测试自动通知\", 1.5)"
+				},
+				{
+					"caller_method": "_on_enemy_defeated",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 100,
+					"line_text": "NotificationManager.show_notification(\"战胜敌人 %s\" % enemy_data.name)"
+				},
+				{
+					"caller_method": "show_notification",
+					"file": "res://Scene/ui/Utilty/notification/notification_manager.gd",
+					"line": 10,
+					"line_text": "noti.show_notification(message, duration)"
+				}
+			]
+		},
+		"show_refine_interface": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": [
+				{
+					"caller_method": "_on_forge_complete",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 161,
+					"line_text": "show_refine_interface()"
+				}
+			]
+		},
+		"show_refine_value_popup": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+			"references": [
+				{
+					"caller_method": "update_attribute",
+					"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+					"line": 57,
+					"line_text": "show_refine_value_popup(valueadd, item.global_position + Vector2(item.size.x / 2, 0), refine_type)"
+				}
+			]
+		},
+		"start_battle": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/ui/battle/battle_panel.gd",
+			"references": [
+				{
+					"caller_method": "_on_enemy_defeated",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 102,
+					"line_text": "start_battle() # 开始与下一个敌人的战斗"
+				},
+				{
+					"caller_method": "_on_battle_button_pressed",
+					"file": "res://Scene/ui/main/ui_main.gd",
+					"line": 50,
+					"line_text": "$\"..\".ui_battle.start_battle()"
+				}
+			]
+		},
+		"take_damage": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/data/player_data.gd",
+			"references": [
+				{
+					"caller_method": "enemy_attack",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 314,
+					"line_text": "player_data.take_damage(damage_info.damage)"
+				}
+			]
+		},
+		"test": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/test/testR.gd",
+			"references": [
+				{
+					"caller_method": "_ready",
+					"file": "res://Scene/test/test2.gd",
+					"line": 8,
+					"line_text": "_test.test()"
+				}
+			]
+		},
+		"unequip_item": {
+			"caller_method": "GLOBAL",
+			"count": 0,
+			"file": "res://Scene/data/player_data.gd",
+			"references": []
+		},
+		"update_attribute": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+			"references": [
+				{
+					"caller_method": "_on_attribute_refine",
+					"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+					"line": 95,
+					"line_text": "update_attribute(attribute_name, values, add)"
+				}
+			]
+		},
+		"update_attributes": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/ui/character/character_panel.gd",
+			"references": [
+				{
+					"caller_method": "_ready",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 11,
+					"line_text": "update_attributes()"
+				},
+				{
+					"caller_method": "open_panel",
+					"file": "res://Scene/ui/character/character_panel.gd",
+					"line": 55,
+					"line_text": "update_attributes()"
+				}
+			]
+		},
+		"update_crack_marker_position": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+			"references": [
+				{
+					"caller_method": "update_values",
+					"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+					"line": 67,
+					"line_text": "update_crack_marker_position()"
+				}
+			]
+		},
+		"update_display": {
+			"caller_method": "GLOBAL",
+			"count": 3,
+			"file": "res://Scene/ui/enemy_selection/enemy_selection_panel.gd",
+			"references": [
+				{
+					"caller_method": "_ready",
+					"file": "res://Scene/ui/enemy_selection/enemy_selection_panel.gd",
+					"line": 19,
+					"line_text": "update_display()"
+				},
+				{
+					"caller_method": "_on_increase_pressed",
+					"file": "res://Scene/ui/enemy_selection/enemy_selection_panel.gd",
+					"line": 37,
+					"line_text": "update_display()"
+				},
+				{
+					"caller_method": "_on_decrease_pressed",
+					"file": "res://Scene/ui/enemy_selection/enemy_selection_panel.gd",
+					"line": 43,
+					"line_text": "update_display()"
+				}
+			]
+		},
+		"update_progress_bar_color": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+			"references": [
+				{
+					"caller_method": "play_increase_animation",
+					"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+					"line": 110,
+					"line_text": "update_progress_bar_color()"
+				},
+				{
+					"caller_method": "update_ui",
+					"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+					"line": 118,
+					"line_text": "update_progress_bar_color()"
+				}
+			]
+		},
+		"update_progress_text": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+			"references": [
+				{
+					"caller_method": "update_ui",
+					"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+					"line": 119,
+					"line_text": "update_progress_text()"
+				},
+				{
+					"caller_method": "update_progress_bar_color",
+					"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+					"line": 151,
+					"line_text": "update_progress_text()"
+				}
+			]
+		},
+		"update_slot_display": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/ui/forge/forge_panel.gd",
+			"references": [
+				{
+					"caller_method": "open_forge_interface",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 106,
+					"line_text": "update_slot_display()"
+				},
+				{
+					"caller_method": "equip_attributes",
+					"file": "res://Scene/ui/forge/forge_panel.gd",
+					"line": 230,
+					"line_text": "update_slot_display()"
+				}
+			]
+		},
+		"update_stats": {
+			"caller_method": "GLOBAL",
+			"count": 3,
+			"file": "res://Scene/ui/battle/battle_panel.gd",
+			"references": [
+				{
+					"caller_method": "start_battle",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 123,
+					"line_text": "update_stats()"
+				},
+				{
+					"caller_method": "player_attack",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 308,
+					"line_text": "update_stats()"
+				},
+				{
+					"caller_method": "enemy_attack",
+					"file": "res://Scene/ui/battle/battle_panel.gd",
+					"line": 339,
+					"line_text": "update_stats()"
+				}
+			]
+		},
+		"update_ui": {
+			"caller_method": "GLOBAL",
+			"count": 1,
+			"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+			"references": [
+				{
+					"caller_method": "update_values",
+					"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+					"line": 73,
+					"line_text": "update_ui(values)"
+				}
+			]
+		},
+		"update_values": {
+			"caller_method": "GLOBAL",
+			"count": 2,
+			"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+			"references": [
+				{
+					"caller_method": "setup",
+					"file": "res://Scene/ui/forge/refine/Item/refine_attribute_item.gd",
+					"line": 27,
+					"line_text": "update_values(values, false)"
+				},
+				{
+					"caller_method": "update_attribute",
+					"file": "res://Scene/ui/forge/refine/refine_panel.gd",
+					"line": 47,
+					"line_text": "item.update_values(values)"
+				}
+			]
+		}
+	},
+	"timestamp": "2025-04-27T10:44:53",
+	"version": 1
+}

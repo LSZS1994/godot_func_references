@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://c23miqat0at5m"]
+
+[ext_resource type="Script" uid="uid://cay445f6j6n8l" path="res://addons/reference_counter/reference_item.gd" id="1_qeolj"]
+
+[node name="ReferenceItem" type="Button"]
+size_flags_horizontal = 3
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0.8, 0.8, 1, 1)
+text = "Reference Item"
+flat = true
+script = ExtResource("1_qeolj")

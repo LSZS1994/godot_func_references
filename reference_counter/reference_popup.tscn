@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://rhe8h0swxc02"]
+
+[ext_resource type="Script" uid="uid://c22k7pi0ov278" path="res://addons/reference_counter/reference_popup.gd" id="1_xhy74"]
+[ext_resource type="PackedScene" uid="uid://c23miqat0at5m" path="res://addons/reference_counter/reference_item.tscn" id="2_0pjlm"]
+
+[node name="ReferencePopup" type="Window"]
+title = "Method References"
+size = Vector2i(800, 400)
+script = ExtResource("1_xhy74")
+item_scene = ExtResource("2_0pjlm")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = -8.0
+offset_bottom = -8.0
+
+[node name="MethodLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "References to: "
+
+[node name="SearchEdit" type="LineEdit" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "Search references..."
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ReferencesList" type="VBoxContainer" parent="VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
